@@ -1,4 +1,4 @@
-const RAPIDAPI_KEY = "2a8ae84810msh256dd2a9dbb10b4p1821f2jsn7118f0a737d6";
+const RAPIDAPI_KEY = "enter your key";
 const weatherUrlHost = "weatherapi-com.p.rapidapi.com";
 const timeDateUrlHost = "world-time-by-api-ninjas.p.rapidapi.com";
 
