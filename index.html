@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body class="container-fluid">
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button><span class="bi bi-search"></span></button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city"></h2>
+            <h1 class="container-fluid d-flex"><i class="bi bi-thermometer-half"></i><div class="temp"></div></h1>
+            <div class="feels-like"></div>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+                <div class="description"></div>
+            </div>
+            <div class="container-fluid d-flex "><i class="bi bi-droplet me-2"></i><div class="humidity"></div></div>
+            <div class="container-fluid d-flex "><i class="bi bi-wind me-2"></i><div class="wind"></div></div>
+        </div>
+        <div class="datetime">
+            <div class="time"></div>
+            <div class="date"></div>
+        </div>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"> </script>
+</body>
+
+</html>
